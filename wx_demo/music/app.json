@@ -1,0 +1,21 @@
+{
+  "pages": [
+ 
+    "pages/index/index",
+    "pages/list/list",
+   "pages/public/public",
+    "pages/search/search",
+    "pages/detail/detail"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#03bbd5",
+    "navigationBarTitleText": "宠物之家",
+    "navigationBarTextStyle": "white"
+  },
+  "permission": {
+    "scope.userLocation": {
+      "desc": "即将获取您的地理位置"
+    }
+  }
+}

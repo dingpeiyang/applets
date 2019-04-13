@@ -1,0 +1,11 @@
+<!--pages/search/search.wxml-->
+<view class='search'>
+<input bindinput='handleSearch'></input>
+</view>
+
+<view class='content'>
+<view class='list' wx:for="{{infoList}}" wx:key="{{index}}" data-id="{{item.id}}" bindtap='handleDetail'>
+<view class='title'>{{item.address}}</view>
+<view class='info'>{{item.info}}</view>
+</view>
+</view>
